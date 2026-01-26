@@ -267,6 +267,16 @@ footer {
         font-size: 18px;
     }
 
+    /* Stack images above text on mobile */
+    .project-description img {
+        float: none !important;
+        display: block;
+        width: 100% !important;
+        max-width: 280px;
+        height: auto !important;
+        margin: 0 auto 1.5rem auto !important;
+    }
+
     nav {
         flex-direction: column;
         gap: 1.5rem;
