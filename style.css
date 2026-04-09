@@ -231,6 +231,19 @@ main {
     color: #8b3a3a;
 }
 
+.bio-section a {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #8b3a3a;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.bio-section a:hover {
+    color: #8b3a3a;
+    border-bottom-color: #1a1a1a;
+}
+
 /* Contact page styles */
 .contact-info {
     max-width: 600px;
