@@ -96,6 +96,10 @@
                 height: 2.5rem;
                 font-size: 1.1rem;
             }
+
+            /* TG title: hide the pipe, drop the year to its own line on mobile */
+            .project-title .tg-sep { display: none; }
+            .project-title .tg-year { display: block; }
         }
     </style>
 </head>
@@ -125,7 +129,7 @@
 
                     <div class="carousel-slide">
                         <div class="project">
-                            <h2 class="project-title">Tranquility Grove | 1844</h2>
+                            <h2 class="project-title"><span class="tg-name">Tranquility Grove</span><span class="tg-sep"> | </span><span class="tg-year">1844</span></h2>
                             <p class="project-subtitle">songs and recitations</p>
                             <p class="project-description"><img src="images/bell-cover-vivid-calm2.jpg" alt="Proclaim Liberty antislavery banner (Massachusetts Historical Society)" style="float: right; width: 200px; margin: 0 0 1rem 1.5rem; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">On August 2, 1844, the largest anti-slavery gathering in American history was held in Hingham, Massachusetts. Frederick Douglass and William Lloyd Garrison appeared in Tranquility Grove with dozens of abolitionism's most powerful and persuasive leaders. The Hutchinson Family, America's first celebrity protest singers, led their anthems. Only a small fraction of what they said and sang that day survives, but they left behind their speeches, sheet music, verse, and memoirs. Out of that source material, I devised a set of eight documentary poems meant to express the mass movement's deep divisions and the shared conviction that held them together.</p>
                             <div class="project-meta">
