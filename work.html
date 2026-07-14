@@ -75,8 +75,33 @@
             margin-bottom: 0.75rem;
         }
 
+        /* TG title is the door to tranquilitygrove1844.com — a small oxblood ↗
+           marks it at rest (survives touch), the whole title warms on hover */
+        .project-title .tg-link {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .project-title .tg-link:hover {
+            color: #8b3a3a;
+        }
+        .project-title .tg-ext {
+            margin-left: 0.3em;
+            font-size: 0.6em;
+            vertical-align: 0.35em;
+            color: #8b3a3a;
+        }
+
         .carousel-slide .project-subtitle {
             margin-bottom: 2rem;
+        }
+
+        /* the logline — mirrors the splash's one-line framing (a lead above the body) */
+        .carousel-slide .project-logline {
+            font-size: 1.15rem;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 1.4rem;
         }
 
         .carousel-slide .project-description {
@@ -129,9 +154,10 @@
 
                     <div class="carousel-slide">
                         <div class="project">
-                            <h2 class="project-title"><span class="tg-name">Tranquility Grove</span><span class="tg-sep"> | </span><span class="tg-year">1844</span></h2>
+                            <h2 class="project-title"><a class="tg-link" href="https://tranquilitygrove1844.com" target="_blank" rel="noopener"><span class="tg-name">Tranquility Grove</span><span class="tg-sep"> | </span><span class="tg-year">1844<span class="tg-ext" aria-hidden="true">↗</span></span></a></h2>
                             <p class="project-subtitle">songs and recitations</p>
-                            <p class="project-description"><img src="images/bell-cover-vivid-calm2.jpg" alt="Proclaim Liberty antislavery banner (Massachusetts Historical Society)" style="float: right; width: 200px; margin: 0 0 1rem 1.5rem; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">On August 2, 1844, the largest abolitionist gathering in American history was held in Hingham, Massachusetts. Frederick Douglass and William Lloyd Garrison appeared in Tranquility Grove with dozens of the mass movement's most powerful and persuasive leaders. The Hutchinson Family, America's first celebrity protest singers, led their anthems. Only a small fraction of what they said and sang that day survives, but they left behind their speeches, sheet music, verse, and memoirs. Out of that source material, I devised a set of eight documentary poems meant to express both abolitionism's deep divisions and the shared conviction to end slavery that held them together.</p>
+                            <p class="project-logline">Eight documentary poems inspired by the largest abolitionist gathering in American history.</p>
+                            <p class="project-description"><img src="images/bell-cover-vivid-calm2.jpg" alt="Proclaim Liberty antislavery banner (Massachusetts Historical Society)" style="float: right; width: 200px; margin: 0 0 1rem 1.5rem; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">On August 2, 1844, Frederick Douglass and William Lloyd Garrison appeared in Tranquility Grove — a wooded clearing in Hingham, Massachusetts — with dozens of the mass movement’s most powerful and persuasive leaders. The Hutchinson Family, America’s first celebrity protest singers, led their anthems. Only a small fraction of what was said and sung that day was recorded, but the speeches, sheet music, verse, and memoirs remain. Out of that source material, I devised <em>Tranquility Grove 1844</em>, meant to express both abolitionism’s deep divisions and the shared conviction to end slavery that held them together.</p>
                             <div class="project-meta">
                                 <p><strong>Text by:</strong> David Mulei</p>
                                 <p style="font-style: italic;">after Jesse Hutchinson, Jr., Almira Seymour, John Quincy Adams, Charles Lenox Remond, Ralph Waldo Emerson, Abby Kelley, Frederick Douglass, and Nancy Amelia Woodbury Priest</p>
