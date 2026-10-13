@@ -203,6 +203,16 @@ main {
     letter-spacing: 0.3px;
 }
 
+/* the author photo: a small circle beside the first paragraph, the way a
+   contributor photo sits with a magazine byline */
+.bio-photo {
+    float: left;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 0.3rem 1.5rem 0.6rem 0;
+}
+
 .bio-section p {
     margin-bottom: 1.5rem;
     line-height: 1.85;
@@ -297,6 +307,12 @@ footer {
         max-width: 280px;
         height: auto !important;
         margin: 0 auto 1.5rem auto !important;
+    }
+
+    .bio-photo {
+        width: 80px;
+        height: 80px;
+        margin: 0.2rem 1.1rem 0.4rem 0;
     }
 
     nav {
